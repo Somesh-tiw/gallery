@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+.container{
+ width: 100%;
+  min-width: 100vw; 
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ padding: 50px 8%;
+ 
+}
+.gallery{
+ display: grid; 
+ /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  */
+ /* grid-template-columns: subgrid(auto-fit, minmax(250px,1fr)); */
+
+ grid-gap: 30px 
+}
+.gallery img{
+     width: 100%; 
+}
